@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-dark: #ffffff;
+  /* Main Background - White */
+  --color-brand-primary: #f0f9ff;
+  /* Secondary Background - Very Light Blue */
+  --color-brand-accent: #334155;
+  /* Text Accent - Slate 700 */
+  --color-brand-gold: #b45309;
+  /* Darker Gold for contrast on white */
+  --color-brand-mist: #0f172a;
+  /* Main Text - Dark Slate Blue */
+  --color-brand-forest: #143d28;
+
+  --font-serif: var(--font-playfair), serif;
+  --font-sans: var(--font-source-sans), sans-serif;
+  --font-amadine: Amadine, sans-serif;
+
+  --background-image-hero-pattern: url('/images/hero.png');
+  --background-image-mist-pattern: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.7)), url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21?q=80&w=2574&auto=format&fit=crop');
+  --background-image-youth-pattern: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.4)), url('https://images.unsplash.com/photo-1533240332313-0db49b459ad6?q=80&w=2000&auto=format&fit=crop');
+}
+
+/* Custom Utilities */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s cubic-bezier(0.5, 0, 0, 1);
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.glass-nav {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(15, 23, 42, 0.1);
+  color: #0f172a;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+body {
+  background: var(--color-brand-dark);
+  color: var(--color-brand-mist);
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-serif);
+}
