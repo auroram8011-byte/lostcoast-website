@@ -73,8 +73,8 @@ export default function Navbar() {
                     <Image
                         src="/images/logo2.png"
                         alt="Lost Coast Getaways"
-                        width={240}
-                        height={96}
+                        width={430}
+                        height={152}
                         className="w-auto h-12 md:h-14 object-contain brightness-0 invert"
                         priority
                     />

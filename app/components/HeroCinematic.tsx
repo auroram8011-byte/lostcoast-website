@@ -62,10 +62,10 @@ export default function HeroCinematic() {
                 <div className="absolute top-[40%] md:top-[42%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[90vw]">
                     <div className="flex flex-col relative gap-6 md:gap-10">
                         <motion.h1
-                            initial={{ x: "-10%", opacity: 0 }}
+                            initial={{ x: "10%", opacity: 0 }}
                             animate={{ x: "0%", opacity: 1 }}
                             transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1] }}
-                            className="font-amadine text-[14vw] md:text-[10vw] leading-[0.8] tracking-tight text-white/90 self-start uppercase"
+                            className="font-amadine italic text-[8.4vw] md:text-[6vw] leading-[0.8] tracking-tight text-white/90 self-end text-right uppercase"
                         >
                             Lost Coast
                         </motion.h1>
@@ -74,7 +74,7 @@ export default function HeroCinematic() {
                             initial={{ x: "10%", opacity: 0 }}
                             animate={{ x: "0%", opacity: 1 }}
                             transition={{ duration: 1.5, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-                            className="font-amadine text-[14vw] md:text-[10vw] leading-[0.8] tracking-tighter text-white/90 self-end text-right uppercase"
+                            className="font-amadine italic text-[8.4vw] md:text-[6vw] leading-[0.8] tracking-tighter text-white/90 self-end text-right uppercase"
                         >
                             Getaways
                         </motion.h1>

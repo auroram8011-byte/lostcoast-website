@@ -197,8 +197,8 @@ export default function Footer() {
             <Image
               src="/images/logo2.png"
               alt="Lost Coast Getaways"
-              width={180}
-              height={60}
+              width={430}
+              height={152}
               className="h-12 w-auto"
             />
           </Link>
@@ -206,15 +206,15 @@ export default function Footer() {
           <div className="flex flex-wrap justify-center gap-4">
             <SocialIconLink href="https://www.instagram.com/lostcoastgetaways/"><Instagram size={16} /></SocialIconLink>
             <SocialIconLink href="https://www.facebook.com/lostcoastgetaways"><Facebook size={16} /></SocialIconLink>
-            <SocialIconLink href="#"><Linkedin size={16} /></SocialIconLink>
-            <SocialIconLink href="https://www.youtube.com/watch?v=34IQhk-W86s"><Youtube size={16} /></SocialIconLink>
-            <SocialIconLink href="#"><TikTokIcon size={16} /></SocialIconLink>
+            <SocialIconLink href="https://www.linkedin.com/in/aurora-m-a9b879249"><Linkedin size={16} /></SocialIconLink>
+            <SocialIconLink href="https://www.youtube.com/@lostcoastgetaways"><Youtube size={16} /></SocialIconLink>
+            <SocialIconLink href="https://www.tiktok.com/@lostcoastgetaways?_r=1&_t=ZP-96SkjShnVug"><TikTokIcon size={16} /></SocialIconLink>
             <SocialIconLink href="https://x.com/LostCoastGetawz"><XIcon size={16} /></SocialIconLink>
             <SocialIconLink href="https://in.pinterest.com/lostcoastgetaways/"><PinterestIcon size={16} /></SocialIconLink>
             <SocialIconLink href="https://www.threads.net/@lostcoastgetaways"><ThreadsIcon size={16} /></SocialIconLink>
             <SocialIconLink href="https://substack.com/@lostcoastgetaways"><SubstackIcon size={16} /></SocialIconLink>
             <SocialIconLink href="mailto:lostcoastgetaway@gmail.com"><Mail size={16} /></SocialIconLink>
-            <SocialIconLink href="#"><Phone size={16} /></SocialIconLink>
+            <SocialIconLink href="tel:707-300-0960"><Phone size={16} /></SocialIconLink>
           </div>
 
         </div>

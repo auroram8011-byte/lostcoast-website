@@ -42,3 +42,4 @@ yarn-error.log*
 # build artifacts & utility scripts
 eslint_report.json
 fix_images.py
+.env*.local
